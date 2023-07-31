@@ -1,0 +1,7 @@
+{
+  "package_name": "bboxes_ex_msgs",
+  "non_idl_tuples": [
+    "/home/kiro04/robot_ws/ros2_ws/src/yolox_ros/bbox_ex_msgs:msg/BoundingBox.msg",
+    "/home/kiro04/robot_ws/ros2_ws/src/yolox_ros/bbox_ex_msgs:msg/BoundingBoxes.msg"
+  ]
+}

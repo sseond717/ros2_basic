@@ -1,0 +1,5 @@
+[0.422s] Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags -- -j8 -l8
+[0.446s] [0mCMake Error: The source directory "/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package_mags" does not exist.
+[0.446s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.448s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.452s] Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags -- -j8 -l8

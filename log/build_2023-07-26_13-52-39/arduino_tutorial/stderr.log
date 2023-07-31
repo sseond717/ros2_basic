@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial/servo_subscriber.py", line 11
+    self.subscriber_ = self.create_subscription(String, '/servo_control',self.servo_callback, 10)    self.subscriber_ = self.create_subscription(String, '/servo_control',self.servo_callback, 10)
+                                                                                                     ^^^^
+SyntaxError: invalid syntax
+

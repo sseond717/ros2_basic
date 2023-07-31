@@ -1,0 +1,2 @@
+[100%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/kiro04/robot_ws/ros2_ws/build/yolox_param/yolox_param/include//yolox_param.hpp /home/kiro04/robot_ws/ros2_ws/src/yolox_ros/yolox_ros_cpp/yolox_param/src/yolox_parameters.yaml `[0m
+[100%] Built target yolox_param

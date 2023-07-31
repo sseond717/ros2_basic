@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/kiro04/.local/bin/cmake", line 33, in <module>
+    sys.exit(load_entry_point('cmake', 'console_scripts', 'cmake')())
+  File "/home/kiro04/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/home/kiro04/.local/lib/python3.10/site-packages/cmake/__init__.py", line 39, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1207, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1941, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1899, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

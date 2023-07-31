@@ -1,0 +1,171 @@
+[0.581s] Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kiro04/.local/bin/cmake --build /home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs -- -j8 -l8
+[0.686s] [  2%] Built target my_first_package_msgs__cpp
+[0.693s] [ 12%] Built target my_first_package_msgs__rosidl_generator_c
+[0.694s] [ 12%] Built target ament_cmake_python_symlink_my_first_package_msgs
+[0.720s] [ 23%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c
+[0.721s] [ 34%] Built target my_first_package_msgs__rosidl_typesupport_cpp
+[0.727s] [ 44%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp
+[0.728s] [ 55%] Built target my_first_package_msgs__rosidl_typesupport_c
+[0.733s] [ 65%] Built target my_first_package_msgs__rosidl_typesupport_introspection_cpp
+[0.741s] [ 76%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c
+[0.758s] [ 76%] Built target my_first_package_msgs
+[0.776s] [ 78%] Built target my_first_package_msgs__py
+[0.809s] [ 87%] Built target my_first_package_msgs__rosidl_generator_py
+[0.833s] [ 91%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.835s] [ 95%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c__pyext
+[0.836s] [100%] Built target my_first_package_msgs__rosidl_typesupport_c__pyext
+[1.214s] running egg_info
+[1.216s] writing my_first_package_msgs.egg-info/PKG-INFO
+[1.216s] writing dependency_links to my_first_package_msgs.egg-info/dependency_links.txt
+[1.216s] writing top-level names to my_first_package_msgs.egg-info/top_level.txt
+[1.221s] reading manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[1.223s] writing manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[1.258s] [100%] Built target ament_cmake_python_build_my_first_package_msgs_egg
+[1.284s] Invoked command in '/home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kiro04/.local/bin/cmake --build /home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs -- -j8 -l8
+[1.586s] Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kiro04/.local/bin/cmake --install /home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs
+[1.671s] -- Install configuration: ""
+[1.671s] -- Execute custom install script
+[1.672s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/ament_index/resource_index/rosidl_interfaces/my_first_package_msgs
+[1.677s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__functions.h
+[1.681s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.h
+[1.684s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.h
+[1.689s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.h
+[1.692s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.h
+[1.696s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h
+[1.700s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h
+[1.704s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.h
+[1.710s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.713s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.h
+[1.717s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.h
+[1.723s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.h
+[1.726s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.h
+[1.730s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.sh
+[1.734s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.dsv
+[1.741s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_c.h
+[1.744s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h
+[1.748s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.753s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h
+[1.758s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_c.h
+[1.761s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h
+[1.765s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.769s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h
+[1.774s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__builder.hpp
+[1.777s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.hpp
+[1.781s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__traits.hpp
+[1.785s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.hpp
+[1.790s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+[1.794s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+[1.798s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+[1.802s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+[1.807s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp
+[1.811s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp
+[1.815s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp
+[1.819s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.hpp
+[1.824s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.828s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[1.832s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.836s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[1.841s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_cpp.hpp
+[1.845s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+[1.849s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp
+[1.853s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.sh
+[1.858s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.dsv
+[1.862s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.867s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.872s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.876s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.885s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/__init__.py
+[1.888s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c
+[1.890s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.894s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.899s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/__init__.py
+[1.903s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/_dist_turtle.py
+[1.907s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/_dist_turtle_s.c
+[1.911s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/libmy_first_package_msgs__rosidl_generator_py.so
+[1.915s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/__init__.py
+[1.920s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py
+[1.924s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c
+[1.929s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.933s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.937s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.942s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/__init__.py
+[1.947s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn.py
+[1.951s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn_s.c
+[1.957s] -- Up-to-date symlink: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.957s] -- Up-to-date symlink: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.958s] -- Up-to-date symlink: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.958s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.idl
+[1.964s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.idl
+[1.969s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.idl
+[1.973s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.msg
+[1.979s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.srv
+[1.983s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn_Request.msg
+[1.987s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn_Response.msg
+[1.989s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.action
+[1.996s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_package_msgs
+[1.996s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_package_msgs
+[2.003s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.sh
+[2.004s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.dsv
+[2.009s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.sh
+[2.012s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.dsv
+[2.019s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.bash
+[2.020s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.sh
+[2.025s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.zsh
+[2.030s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.dsv
+[2.031s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv
+[2.035s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/ament_index/resource_index/packages/my_first_package_msgs
+[2.039s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake-extras.cmake
+[2.043s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.047s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.049s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.053s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.056s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.059s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.062s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig.cmake
+[2.065s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig-version.cmake
+[2.068s] -- Symlinking: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/package.xml
+[2.072s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so
+[2.072s] -- Set runtime path of "/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so" to ""
+[2.073s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so
+[2.073s] -- Set runtime path of "/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.074s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so
+[2.074s] -- Set runtime path of "/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.074s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so
+[2.075s] -- Set runtime path of "/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so" to ""
+[2.075s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.075s] -- Set runtime path of "/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.076s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so
+[2.080s] -- Set runtime path of "/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.080s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so
+[2.080s] -- Set runtime path of "/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so" to ""
+[2.134s] Listing '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs'...
+[2.134s] Compiling '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/__init__.py'...
+[2.135s] Listing '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action'...
+[2.135s] Compiling '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/__init__.py'...
+[2.135s] Compiling '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/_dist_turtle.py'...
+[2.135s] Listing '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg'...
+[2.135s] Compiling '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/__init__.py'...
+[2.135s] Compiling '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py'...
+[2.135s] Listing '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv'...
+[2.135s] Compiling '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/__init__.py'...
+[2.136s] Compiling '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn.py'...
+[2.141s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so
+[2.142s] -- Set runtime path of "/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so" to ""
+[2.142s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport.cmake
+[2.142s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.143s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.143s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.143s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.143s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.144s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport.cmake
+[2.144s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.144s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cppExport.cmake
+[2.144s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.144s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.145s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.145s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.145s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport.cmake
+[2.145s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.146s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport.cmake
+[2.146s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.158s] Invoked command in '/home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kiro04/.local/bin/cmake --install /home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs

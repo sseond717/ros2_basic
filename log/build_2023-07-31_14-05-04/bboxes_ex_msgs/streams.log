@@ -1,0 +1,64 @@
+[0.065s] Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/bboxes_ex_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake --build /home/kiro04/robot_ws/ros2_ws/build/bboxes_ex_msgs -- -j8 -l8
+[1.605s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.606s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.608s] [  5%] Built target ament_cmake_python_symlink_bboxes_ex_msgs
+[1.610s] running egg_info
+[1.612s] creating bboxes_ex_msgs.egg-info
+[1.613s] writing bboxes_ex_msgs.egg-info/PKG-INFO
+[1.617s] writing dependency_links to bboxes_ex_msgs.egg-info/dependency_links.txt
+[1.620s] writing top-level names to bboxes_ex_msgs.egg-info/top_level.txt
+[1.622s] writing manifest file 'bboxes_ex_msgs.egg-info/SOURCES.txt'
+[1.623s] reading manifest file 'bboxes_ex_msgs.egg-info/SOURCES.txt'
+[1.626s] writing manifest file 'bboxes_ex_msgs.egg-info/SOURCES.txt'
+[1.628s] [  5%] Built target ament_cmake_python_build_bboxes_ex_msgs_egg
+[1.629s] [  5%] Built target bboxes_ex_msgs__cpp
+[1.630s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.631s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.633s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.634s] [ 17%] [32mBuilding C object CMakeFiles/bboxes_ex_msgs__rosidl_generator_c.dir/rosidl_generator_c/bboxes_ex_msgs/msg/detail/bounding_boxes__functions.c.o[0m
+[1.636s] [ 17%] [32mBuilding C object CMakeFiles/bboxes_ex_msgs__rosidl_generator_c.dir/rosidl_generator_c/bboxes_ex_msgs/msg/detail/bounding_box__functions.c.o[0m
+[1.637s] [ 20%] [32m[1mLinking C shared library libbboxes_ex_msgs__rosidl_generator_c.so[0m
+[1.639s] [ 20%] Built target bboxes_ex_msgs__rosidl_generator_c
+[1.640s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.642s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.643s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.644s] [ 30%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bboxes_ex_msgs/msg/bounding_box__type_support.cpp.o[0m
+[1.645s] [ 33%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bboxes_ex_msgs/msg/bounding_boxes__type_support.cpp.o[0m
+[1.669s] [ 35%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bboxes_ex_msgs/msg/detail/bounding_boxes__type_support.cpp.o[0m
+[1.669s] [ 38%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bboxes_ex_msgs/msg/detail/bounding_box__type_support.cpp.o[0m
+[1.670s] [ 41%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bboxes_ex_msgs/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o[0m
+[2.283s] [ 43%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bboxes_ex_msgs/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o[0m
+[2.389s] [ 46%] [32mBuilding C object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bboxes_ex_msgs/msg/detail/bounding_box__type_support.c.o[0m
+[2.391s] [ 48%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bboxes_ex_msgs/msg/bounding_box__type_support.cpp.o[0m
+[2.518s] [ 51%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bboxes_ex_msgs/msg/bounding_boxes__type_support.cpp.o[0m
+[2.524s] [ 53%] [32m[1mLinking CXX shared library libbboxes_ex_msgs__rosidl_typesupport_cpp.so[0m
+[2.548s] [ 56%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bboxes_ex_msgs/msg/detail/bounding_box__type_support_c.cpp.o[0m
+[2.589s] [ 58%] [32m[1mLinking CXX shared library libbboxes_ex_msgs__rosidl_typesupport_c.so[0m
+[2.590s] [ 61%] [32mBuilding C object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bboxes_ex_msgs/msg/detail/bounding_boxes__type_support.c.o[0m
+[2.726s] [ 64%] [32m[1mLinking C shared library libbboxes_ex_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.753s] [ 64%] Built target bboxes_ex_msgs__rosidl_typesupport_c
+[2.772s] [ 64%] Built target bboxes_ex_msgs__rosidl_typesupport_cpp
+[2.782s] [ 66%] [32mBuilding CXX object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bboxes_ex_msgs/msg/detail/bounding_boxes__type_support_c.cpp.o[0m
+[2.803s] [ 66%] Built target bboxes_ex_msgs__rosidl_typesupport_introspection_c
+[3.520s] [ 69%] [32m[1mLinking CXX shared library libbboxes_ex_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.693s] [ 69%] Built target bboxes_ex_msgs__rosidl_typesupport_introspection_cpp
+[3.768s] [ 71%] [32m[1mLinking CXX shared library libbboxes_ex_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.873s] [ 71%] Built target bboxes_ex_msgs__rosidl_typesupport_fastrtps_c
+[3.916s] [ 74%] [32m[1mLinking CXX shared library libbboxes_ex_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.037s] [ 74%] Built target bboxes_ex_msgs__rosidl_typesupport_fastrtps_cpp
+[4.052s] [ 74%] Built target bboxes_ex_msgs
+[4.067s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.025s] [ 76%] Built target bboxes_ex_msgs__py
+[5.069s] [ 79%] [32mBuilding C object CMakeFiles/bboxes_ex_msgs__rosidl_generator_py.dir/rosidl_generator_py/bboxes_ex_msgs/msg/_bounding_box_s.c.o[0m
+[5.087s] [ 82%] [32mBuilding C object CMakeFiles/bboxes_ex_msgs__rosidl_generator_py.dir/rosidl_generator_py/bboxes_ex_msgs/msg/_bounding_boxes_s.c.o[0m
+[5.511s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/bboxes_ex_msgs/libbboxes_ex_msgs__rosidl_generator_py.so[0m
+[5.724s] [ 84%] Built target bboxes_ex_msgs__rosidl_generator_py
+[5.805s] [ 87%] [32mBuilding C object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bboxes_ex_msgs/_bboxes_ex_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.816s] [ 89%] [32mBuilding C object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bboxes_ex_msgs/_bboxes_ex_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.887s] [ 92%] [32mBuilding C object CMakeFiles/bboxes_ex_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bboxes_ex_msgs/_bboxes_ex_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.185s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/bboxes_ex_msgs/bboxes_ex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.220s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/bboxes_ex_msgs/bboxes_ex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.325s] [ 97%] Built target bboxes_ex_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.328s] [100%] [32m[1mLinking C shared library rosidl_generator_py/bboxes_ex_msgs/bboxes_ex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.407s] [100%] Built target bboxes_ex_msgs__rosidl_typesupport_introspection_c__pyext
+[6.417s] [100%] Built target bboxes_ex_msgs__rosidl_typesupport_c__pyext

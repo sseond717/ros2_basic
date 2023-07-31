@@ -1,0 +1,29 @@
+[0.728s] Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/src/arduino_tutorial': PYTHONPATH=/home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/prefix_override:/home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduino_tutorial build --build-base /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/build install --record /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/install.log --single-version-externally-managed
+[0.975s] running egg_info
+[0.977s] writing ../../build/arduino_tutorial/arduino_tutorial.egg-info/PKG-INFO
+[0.977s] writing dependency_links to ../../build/arduino_tutorial/arduino_tutorial.egg-info/dependency_links.txt
+[0.978s] writing entry points to ../../build/arduino_tutorial/arduino_tutorial.egg-info/entry_points.txt
+[0.978s] writing requirements to ../../build/arduino_tutorial/arduino_tutorial.egg-info/requires.txt
+[0.978s] writing top-level names to ../../build/arduino_tutorial/arduino_tutorial.egg-info/top_level.txt
+[0.980s] reading manifest file '../../build/arduino_tutorial/arduino_tutorial.egg-info/SOURCES.txt'
+[0.984s] writing manifest file '../../build/arduino_tutorial/arduino_tutorial.egg-info/SOURCES.txt'
+[0.984s] running build
+[0.985s] running build_py
+[0.985s] copying arduino_tutorial/dist_publisher.py -> /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/build/lib/arduino_tutorial
+[0.985s] running install
+[0.985s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.986s]   warnings.warn(
+[0.986s] running install_lib
+[0.987s] copying /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/build/lib/arduino_tutorial/dist_publisher.py -> /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial
+[0.988s] byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial/dist_publisher.py to dist_publisher.cpython-310.pyc
+[0.989s] running install_data
+[0.989s] copying param/arduino_config.yaml -> /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/share/arduino_tutorial/param
+[0.990s] running install_egg_info
+[0.992s] removing '/home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[0.992s] Copying ../../build/arduino_tutorial/arduino_tutorial.egg-info to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial-0.0.0-py3.10.egg-info
+[0.993s] running install_scripts
+[1.011s] Installing dist_publisher script to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/arduino_tutorial
+[1.012s] Installing dist_subscriber script to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/arduino_tutorial
+[1.012s] Installing led_subscriber script to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/arduino_tutorial
+[1.012s] writing list of installed files to '/home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/install.log'
+[1.039s] Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/src/arduino_tutorial' returned '0': PYTHONPATH=/home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/prefix_override:/home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduino_tutorial build --build-base /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/build install --record /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/install.log --single-version-externally-managed

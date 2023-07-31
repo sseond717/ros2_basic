@@ -1,0 +1,56 @@
+[0.063s] Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/bboxes_ex_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kiro04/.local/bin/cmake /home/kiro04/robot_ws/ros2_ws/src/yolox_ros/bbox_ex_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/bboxes_ex_msgs
+[1.157s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.158s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.158s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.159s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.161s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.161s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.161s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.161s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.655s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.245s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.245s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.245s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.245s]   the cmake_policy command to set the policy and suppress this warning.
+[3.245s] 
+[3.245s] Call Stack (most recent call first):
+[3.245s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.246s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.246s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[3.246s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.246s] [0m
+[3.272s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.273s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.273s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.273s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.273s]   the cmake_policy command to set the policy and suppress this warning.
+[3.273s] 
+[3.274s] Call Stack (most recent call first):
+[3.274s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.274s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.274s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.274s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[3.274s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.275s] [0m
+[3.299s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.299s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.299s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.299s]   the cmake_policy command to set the policy and suppress this warning.
+[3.299s] 
+[3.300s] Call Stack (most recent call first):
+[3.300s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.300s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.300s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.300s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[3.300s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.300s] [0m
+[3.302s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.302s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.302s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.362s] -- Configuring done (3.2s)
+[3.419s] -- Generating done (0.0s)
+[3.424s] -- Build files have been written to: /home/kiro04/robot_ws/ros2_ws/build/bboxes_ex_msgs

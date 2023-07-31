@@ -1,0 +1,21 @@
+[100%] Built target yolox_param
+-- Install configuration: ""
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/include/yolox_param
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/include/yolox_param/yolox_param.hpp
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/ament_index/resource_index/package_run_dependencies/yolox_param
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/ament_index/resource_index/parent_prefix_path/yolox_param
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/environment/ament_prefix_path.sh
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/environment/ament_prefix_path.dsv
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/environment/path.sh
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/environment/path.dsv
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/local_setup.bash
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/local_setup.sh
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/local_setup.zsh
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/local_setup.dsv
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/package.dsv
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/ament_index/resource_index/packages/yolox_param
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/cmake/yolox_paramConfig.cmake
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/cmake/yolox_paramConfig-version.cmake
+-- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/package.xml

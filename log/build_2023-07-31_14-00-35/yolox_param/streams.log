@@ -1,0 +1,24 @@
+[0.056s] Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/yolox_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake --build /home/kiro04/robot_ws/ros2_ws/build/yolox_param -- -j8 -l8
+[1.092s] [100%] Built target yolox_param
+[1.099s] Invoked command in '/home/kiro04/robot_ws/ros2_ws/build/yolox_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake --build /home/kiro04/robot_ws/ros2_ws/build/yolox_param -- -j8 -l8
+[1.338s] Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/yolox_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake --install /home/kiro04/robot_ws/ros2_ws/build/yolox_param
+[1.434s] -- Install configuration: ""
+[1.434s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/include/yolox_param
+[1.435s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/include/yolox_param/yolox_param.hpp
+[1.435s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/ament_index/resource_index/package_run_dependencies/yolox_param
+[1.435s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/ament_index/resource_index/parent_prefix_path/yolox_param
+[1.436s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/environment/ament_prefix_path.sh
+[1.436s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/environment/ament_prefix_path.dsv
+[1.436s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/environment/path.sh
+[1.437s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/environment/path.dsv
+[1.437s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/local_setup.bash
+[1.437s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/local_setup.sh
+[1.437s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/local_setup.zsh
+[1.438s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/local_setup.dsv
+[1.438s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/package.dsv
+[1.438s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/ament_index/resource_index/packages/yolox_param
+[1.438s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.439s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.439s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/cmake/yolox_paramConfig.cmake
+[1.439s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/cmake/yolox_paramConfig-version.cmake
+[1.440s] -- Installing: /home/kiro04/robot_ws/ros2_ws/install/yolox_param/share/yolox_param/package.xml

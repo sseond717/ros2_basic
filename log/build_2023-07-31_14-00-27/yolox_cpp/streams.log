@@ -1,0 +1,9 @@
+[0.061s] Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/yolox_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake /home/kiro04/robot_ws/ros2_ws/yolox_ros/yolox_ros_cpp/yolox_cpp -DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/yolox_cpp
+[1.714s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.714s] -- Configuring incomplete, errors occurred!
+[1.716s] [31mCMake Error at CMakeLists.txt:29 (message):
+[1.716s]   YOLOX_USE_OPENVINO, YOLOX_USE_TENSORRT, YOLOX_USE_ONNXRUNTIME,
+[1.716s]   YOLOX_USE_TFLITE must be ON at least one
+[1.716s] 
+[1.716s] [0m
+[1.735s] Invoked command in '/home/kiro04/robot_ws/ros2_ws/build/yolox_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake /home/kiro04/robot_ws/ros2_ws/yolox_ros/yolox_ros_cpp/yolox_cpp -DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/yolox_cpp

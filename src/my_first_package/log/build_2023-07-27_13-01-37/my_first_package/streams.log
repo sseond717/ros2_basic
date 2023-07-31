@@ -1,0 +1,63 @@
+[0.775s] Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package': PYTHONPATH=/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/prefix_override:/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_first_package build --build-base /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build install --record /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/install.log --single-version-externally-managed
+[1.065s] running egg_info
+[1.066s] creating build/my_first_package/my_first_package.egg-info
+[1.066s] writing build/my_first_package/my_first_package.egg-info/PKG-INFO
+[1.066s] writing dependency_links to build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[1.066s] writing entry points to build/my_first_package/my_first_package.egg-info/entry_points.txt
+[1.067s] writing requirements to build/my_first_package/my_first_package.egg-info/requires.txt
+[1.067s] writing top-level names to build/my_first_package/my_first_package.egg-info/top_level.txt
+[1.067s] writing manifest file 'build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.071s] reading manifest file 'build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.073s] writing manifest file 'build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.074s] running build
+[1.074s] running build_py
+[1.074s] creating /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build
+[1.074s] creating /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib
+[1.074s] creating /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package
+[1.074s] copying my_first_package/__init__.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package
+[1.075s] copying my_first_package/my_first_node.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package
+[1.075s] copying my_first_package/dist_turtle_action_server.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package
+[1.075s] copying my_first_package/turtle_cmd_and_pose.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package
+[1.075s] copying my_first_package/my_multi_thread.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package
+[1.075s] copying my_first_package/my_service_server.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package
+[1.075s] copying my_first_package/my_publisher.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package
+[1.075s] copying my_first_package/my_subscriber.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package
+[1.076s] running install
+[1.076s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.076s]   warnings.warn(
+[1.076s] running install_lib
+[1.077s] creating /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.077s] copying /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package/__init__.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.077s] copying /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package/my_first_node.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.078s] copying /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package/dist_turtle_action_server.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.078s] copying /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package/turtle_cmd_and_pose.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.078s] copying /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package/my_multi_thread.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.078s] copying /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package/my_service_server.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.078s] copying /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package/my_publisher.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.078s] copying /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build/lib/my_first_package/my_subscriber.py -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.079s] byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package/__init__.py to __init__.cpython-310.pyc
+[1.079s] byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_first_node.py to my_first_node.cpython-310.pyc
+[1.079s] byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package/dist_turtle_action_server.py to dist_turtle_action_server.cpython-310.pyc
+[1.080s] byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package/turtle_cmd_and_pose.py to turtle_cmd_and_pose.cpython-310.pyc
+[1.080s] byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_multi_thread.py to my_multi_thread.cpython-310.pyc
+[1.081s] byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_service_server.py to my_service_server.cpython-310.pyc
+[1.082s] byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_publisher.py to my_publisher.cpython-310.pyc
+[1.082s] byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_subscriber.py to my_subscriber.cpython-310.pyc
+[1.083s] running install_data
+[1.083s] creating /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/share/ament_index
+[1.083s] creating /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/share/ament_index/resource_index
+[1.084s] creating /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/share/ament_index/resource_index/packages
+[1.084s] copying resource/my_first_package -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/share/ament_index/resource_index/packages
+[1.084s] copying package.xml -> /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/share/my_first_package
+[1.084s] running install_egg_info
+[1.087s] Copying build/my_first_package/my_first_package.egg-info to /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[1.089s] running install_scripts
+[1.118s] Installing dist_turtle_action_server script to /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/my_first_package
+[1.119s] Installing my_first_node script to /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/my_first_package
+[1.119s] Installing my_multi_thread script to /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/my_first_package
+[1.119s] Installing my_publisher script to /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/my_first_package
+[1.120s] Installing my_service_server script to /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/my_first_package
+[1.120s] Installing my_subscriber script to /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/my_first_package
+[1.120s] Installing turtle_cmd_and_pose script to /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/my_first_package
+[1.120s] writing list of installed files to '/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/install.log'
+[1.176s] Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package' returned '0': PYTHONPATH=/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/prefix_override:/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_first_package build --build-base /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/build install --record /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package/build/my_first_package/install.log --single-version-externally-managed

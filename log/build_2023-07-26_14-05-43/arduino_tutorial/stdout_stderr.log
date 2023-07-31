@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/arduino_tutorial/arduino_tutorial.egg-info/PKG-INFO
+writing dependency_links to ../../build/arduino_tutorial/arduino_tutorial.egg-info/dependency_links.txt
+writing entry points to ../../build/arduino_tutorial/arduino_tutorial.egg-info/entry_points.txt
+writing requirements to ../../build/arduino_tutorial/arduino_tutorial.egg-info/requires.txt
+writing top-level names to ../../build/arduino_tutorial/arduino_tutorial.egg-info/top_level.txt
+reading manifest file '../../build/arduino_tutorial/arduino_tutorial.egg-info/SOURCES.txt'
+writing manifest file '../../build/arduino_tutorial/arduino_tutorial.egg-info/SOURCES.txt'
+running build
+running build_py
+copying arduino_tutorial/servo_publisher.py -> /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/build/lib/arduino_tutorial
+copying arduino_tutorial/servo_subscriber.py -> /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/build/lib/arduino_tutorial
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/build/lib/arduino_tutorial/servo_publisher.py -> /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial
+copying /home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/build/lib/arduino_tutorial/servo_subscriber.py -> /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial
+byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial/servo_publisher.py to servo_publisher.cpython-310.pyc
+byte-compiling /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial/servo_subscriber.py to servo_subscriber.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/arduino_tutorial/arduino_tutorial.egg-info to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages/arduino_tutorial-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dist_publisher script to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/arduino_tutorial
+Installing dist_subscriber script to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/arduino_tutorial
+Installing led_subscriber script to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/arduino_tutorial
+Installing servo_publisher script to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/arduino_tutorial
+Installing servo_subscriber script to /home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial/lib/arduino_tutorial
+writing list of installed files to '/home/kiro04/Documents/robot_ws/ros2_ws/build/arduino_tutorial/install.log'

@@ -1,0 +1,26 @@
+[1.289s] Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package': PYTHONPATH=/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package/prefix_override:/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package/build install --record /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package/install.log --single-version-externally-managed
+[1.727s] running egg_info
+[1.728s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[1.728s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[1.729s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[1.729s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[1.729s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[1.733s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.735s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.735s] running build
+[1.735s] running build_py
+[1.736s] running install
+[1.736s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.736s]   warnings.warn(
+[1.736s] running install_lib
+[1.738s] running install_data
+[1.739s] running install_egg_info
+[1.742s] removing '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.743s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[1.745s] running install_scripts
+[1.777s] Installing dist_turtle_action_server script to /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package/lib/my_first_package
+[1.778s] Installing my_first_node script to /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package/lib/my_first_package
+[1.778s] Installing my_service_server script to /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package/lib/my_first_package
+[1.778s] Installing turtle_cmd_and_pose script to /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package/lib/my_first_package
+[1.779s] writing list of installed files to '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package/install.log'
+[1.863s] Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package' returned '0': PYTHONPATH=/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package/prefix_override:/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package/build install --record /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package/install.log --single-version-externally-managed

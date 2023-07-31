@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.001454] (arduino_tutorial) JobQueued: {'identifier': 'arduino_tutorial', 'dependencies': OrderedDict()}
+[0.001549] (bboxes_ex_msgs) JobQueued: {'identifier': 'bboxes_ex_msgs', 'dependencies': OrderedDict()}
+[0.001600] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.001651] (my_first_package_msgs) JobQueued: {'identifier': 'my_first_package_msgs', 'dependencies': OrderedDict()}
+[0.001681] (yolox_cpp) JobQueued: {'identifier': 'yolox_cpp', 'dependencies': OrderedDict()}
+[0.001751] (yolox_param) JobQueued: {'identifier': 'yolox_param', 'dependencies': OrderedDict()}
+[0.001899] (yolox_ros_cpp) JobQueued: {'identifier': 'yolox_ros_cpp', 'dependencies': OrderedDict([('bboxes_ex_msgs', '/home/kiro04/robot_ws/ros2_ws/install/bboxes_ex_msgs'), ('yolox_cpp', '/home/kiro04/robot_ws/ros2_ws/install/yolox_cpp'), ('yolox_param', '/home/kiro04/robot_ws/ros2_ws/install/yolox_param')])}
+[0.001957] (bboxes_ex_msgs) JobStarted: {'identifier': 'bboxes_ex_msgs'}
+[0.013231] (yolox_cpp) JobStarted: {'identifier': 'yolox_cpp'}
+[0.023039] (yolox_param) JobStarted: {'identifier': 'yolox_param'}
+[0.028704] (arduino_tutorial) JobStarted: {'identifier': 'arduino_tutorial'}
+[0.042560] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.054372] (my_first_package_msgs) JobStarted: {'identifier': 'my_first_package_msgs'}
+[0.061162] (bboxes_ex_msgs) JobProgress: {'identifier': 'bboxes_ex_msgs', 'progress': 'cmake'}
+[0.061656] (bboxes_ex_msgs) Command: {'cmd': ['/home/kiro04/.local/bin/cmake', '/home/kiro04/robot_ws/ros2_ws/src/yolox_ros/bbox_ex_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/bboxes_ex_msgs'], 'cwd': '/home/kiro04/robot_ws/ros2_ws/build/bboxes_ex_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kiro04'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kiro04'), ('OLDPWD', '/home/kiro04'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '940'), ('SYSTEMD_EXEC_PID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3718'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kiro04'), ('JOURNAL_STREAM', '8:27584'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kiro04'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kiro04/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kiro04PC:@/tmp/.ICE-unix/1099,unix/kiro04PC:/tmp/.ICE-unix/1099'), ('INVOCATION_ID', '9db09e16e08744cea32ff77ae56fdc24'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1C4381'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a6e4354b-e62b-4498-907e-543a76163a1d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kiro04/robot_ws/ros2_ws/build/bboxes_ex_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages:/home/kiro04/robot_ws/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.066977] (yolox_cpp) JobProgress: {'identifier': 'yolox_cpp', 'progress': 'cmake'}
+[0.067556] (yolox_cpp) Command: {'cmd': ['/home/kiro04/.local/bin/cmake', '/home/kiro04/robot_ws/ros2_ws/src/yolox_ros/yolox_ros_cpp/yolox_cpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/yolox_cpp'], 'cwd': '/home/kiro04/robot_ws/ros2_ws/build/yolox_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kiro04'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kiro04'), ('OLDPWD', '/home/kiro04'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '940'), ('SYSTEMD_EXEC_PID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3718'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kiro04'), ('JOURNAL_STREAM', '8:27584'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kiro04'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kiro04/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kiro04PC:@/tmp/.ICE-unix/1099,unix/kiro04PC:/tmp/.ICE-unix/1099'), ('INVOCATION_ID', '9db09e16e08744cea32ff77ae56fdc24'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1C4381'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a6e4354b-e62b-4498-907e-543a76163a1d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kiro04/robot_ws/ros2_ws/build/yolox_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages:/home/kiro04/robot_ws/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.072504] (yolox_param) JobProgress: {'identifier': 'yolox_param', 'progress': 'cmake'}
+[0.072622] (yolox_param) Command: {'cmd': ['/home/kiro04/.local/bin/cmake', '/home/kiro04/robot_ws/ros2_ws/src/yolox_ros/yolox_ros_cpp/yolox_param', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/yolox_param'], 'cwd': '/home/kiro04/robot_ws/ros2_ws/build/yolox_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kiro04'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kiro04'), ('OLDPWD', '/home/kiro04'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '940'), ('SYSTEMD_EXEC_PID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3718'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kiro04'), ('JOURNAL_STREAM', '8:27584'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kiro04'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kiro04/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kiro04PC:@/tmp/.ICE-unix/1099,unix/kiro04PC:/tmp/.ICE-unix/1099'), ('INVOCATION_ID', '9db09e16e08744cea32ff77ae56fdc24'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1C4381'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a6e4354b-e62b-4498-907e-543a76163a1d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kiro04/robot_ws/ros2_ws/build/yolox_param'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages:/home/kiro04/robot_ws/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.099463] (-) TimerEvent: {}
+[0.199933] (-) TimerEvent: {}
+[0.300448] (-) TimerEvent: {}
+[0.401031] (-) TimerEvent: {}
+[0.501687] (-) TimerEvent: {}
+[0.602504] (-) TimerEvent: {}
+[0.703039] (-) TimerEvent: {}
+[0.803475] (-) TimerEvent: {}
+[0.904092] (-) TimerEvent: {}
+[1.004573] (-) TimerEvent: {}
+[1.105073] (-) TimerEvent: {}
+[1.205543] (-) TimerEvent: {}
+[1.236739] (bboxes_ex_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.237918] (bboxes_ex_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.240521] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.240692] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.240812] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.240920] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.241026] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.241129] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.241233] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.241337] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.241440] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.241543] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.241871] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.241979] (yolox_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.242401] (yolox_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.242519] (yolox_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.242622] (yolox_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.242726] (yolox_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.242828] (yolox_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.242930] (yolox_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.243031] (yolox_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.243132] (yolox_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.243352] (yolox_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.245097] (yolox_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.246355] (yolox_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.246954] (yolox_cpp) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.247691] (yolox_param) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.249240] (yolox_param) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.251257] (yolox_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.251669] (yolox_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.252313] (yolox_param) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.252605] (yolox_param) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.253159] (yolox_param) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.253489] (yolox_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.254451] (yolox_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.254894] (yolox_param) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.256312] (yolox_param) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.256693] (yolox_param) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.256909] (yolox_param) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.257116] (my_first_package_msgs) JobProgress: {'identifier': 'my_first_package_msgs', 'progress': 'cmake'}
+[1.257185] (my_first_package_msgs) Command: {'cmd': ['/home/kiro04/.local/bin/cmake', '/home/kiro04/robot_ws/ros2_ws/src/my_first_package_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs'], 'cwd': '/home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kiro04'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/lib:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kiro04'), ('OLDPWD', '/home/kiro04'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '940'), ('SYSTEMD_EXEC_PID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3718'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kiro04'), ('JOURNAL_STREAM', '8:27584'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kiro04'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kiro04/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kiro04PC:@/tmp/.ICE-unix/1099,unix/kiro04PC:/tmp/.ICE-unix/1099'), ('INVOCATION_ID', '9db09e16e08744cea32ff77ae56fdc24'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1C4381'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a6e4354b-e62b-4498-907e-543a76163a1d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages:/home/kiro04/robot_ws/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs:/home/kiro04/robot_ws/ros2_ws/install/my_first_package_mags:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble')]), 'shell': False}
+[1.305707] (-) TimerEvent: {}
+[1.352893] (yolox_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.362959] (yolox_param) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.398247] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.405855] (-) TimerEvent: {}
+[1.489306] (my_first_package_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.497317] (yolox_param) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.504851] (yolox_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.505934] (-) TimerEvent: {}
+[1.570826] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.601745] (my_first_package_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.606063] (-) TimerEvent: {}
+[1.626160] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.640439] (my_first_package_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.706187] (-) TimerEvent: {}
+[1.726033] (yolox_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:29 (message):\n'}
+[1.726452] (yolox_cpp) StderrLine: {'line': b'  YOLOX_USE_OPENVINO, YOLOX_USE_TENSORRT, YOLOX_USE_ONNXRUNTIME,\n'}
+[1.726637] (yolox_cpp) StderrLine: {'line': b'  YOLOX_USE_TFLITE must be ON at least one\n'}
+[1.726801] (yolox_cpp) StderrLine: {'line': b'\n'}
+[1.726960] (yolox_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.727121] (yolox_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.729429] (yolox_param) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.743858] (my_first_package_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.748921] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.759818] (yolox_cpp) CommandEnded: {'returncode': 1}
+[1.767745] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.782148] (my_first_package_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.782874] (my_first_package_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.784172] (my_first_package_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.803860] (my_first_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.806300] (-) TimerEvent: {}
+[1.821140] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.847462] (yolox_param) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.860128] (yolox_param) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.880015] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.887592] (yolox_param) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.908949] (-) TimerEvent: {}
+[1.918550] (yolox_cpp) JobEnded: {'identifier': 'yolox_cpp', 'rc': 1}
+[1.920672] (yolox_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.950549] (my_first_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.963178] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.972182] (my_first_package_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.972769] (my_first_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.973782] (my_first_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.977910] (my_first_package_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.980290] (yolox_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.009076] (-) TimerEvent: {}
+[2.035675] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.109193] (-) TimerEvent: {}
+[2.151246] (yolox_param) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.158141] (yolox_param) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.174883] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.209311] (-) TimerEvent: {}
+[2.217872] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 'SIGINT'}
+[2.309458] (-) TimerEvent: {}
+[2.358313] (yolox_param) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.384512] (arduino_tutorial) JobEnded: {'identifier': 'arduino_tutorial', 'rc': 'SIGINT'}
+[2.408126] (yolox_param) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.409549] (-) TimerEvent: {}
+[2.490365] (yolox_param) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.508731] (yolox_param) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.509672] (-) TimerEvent: {}
+[2.590651] (my_first_package_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.596024] (yolox_param) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.597980] (yolox_param) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.609797] (-) TimerEvent: {}
+[2.691775] (my_first_package_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.709930] (-) TimerEvent: {}
+[2.744823] (my_first_package_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.750767] (my_first_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.762005] (my_first_package_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.810054] (-) TimerEvent: {}
+[2.835714] (my_first_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.910168] (-) TimerEvent: {}
+[2.932025] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.972022] (yolox_param) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[3.010308] (-) TimerEvent: {}
+[3.062988] (yolox_param) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.099444] (yolox_param) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.101965] (yolox_param) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.103642] (yolox_param) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.109083] (yolox_param) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[3.110412] (-) TimerEvent: {}
+[3.116862] (yolox_param) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.119853] (yolox_param) StdoutLine: {'line': b'-- Build files have been written to: /home/kiro04/robot_ws/ros2_ws/build/yolox_param\n'}
+[3.148369] (yolox_param) JobEnded: {'identifier': 'yolox_param', 'rc': 'SIGINT'}
+[3.210572] (-) TimerEvent: {}
+[3.310983] (-) TimerEvent: {}
+[3.411424] (-) TimerEvent: {}
+[3.511886] (-) TimerEvent: {}
+[3.612286] (-) TimerEvent: {}
+[3.669525] (my_first_package_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.712426] (-) TimerEvent: {}
+[3.813006] (-) TimerEvent: {}
+[3.913571] (-) TimerEvent: {}
+[4.014077] (-) TimerEvent: {}
+[4.078234] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.114229] (-) TimerEvent: {}
+[4.214800] (-) TimerEvent: {}
+[4.315628] (-) TimerEvent: {}
+[4.362462] (my_first_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.415772] (-) TimerEvent: {}
+[4.516616] (-) TimerEvent: {}
+[4.593165] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.604405] (bboxes_ex_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[4.604741] (bboxes_ex_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.604845] (bboxes_ex_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.604940] (bboxes_ex_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.605040] (bboxes_ex_msgs) StderrLine: {'line': b'\n'}
+[4.605129] (bboxes_ex_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.605217] (bboxes_ex_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.605304] (bboxes_ex_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.605390] (bboxes_ex_msgs) StderrLine: {'line': b'  CMakeLists.txt:11 (rosidl_generate_interfaces)\n'}
+[4.605475] (bboxes_ex_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.605605] (bboxes_ex_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[4.616727] (-) TimerEvent: {}
+[4.639775] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[4.642405] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.643984] (bboxes_ex_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[4.644640] (bboxes_ex_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.645534] (bboxes_ex_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.645648] (bboxes_ex_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.645770] (bboxes_ex_msgs) StderrLine: {'line': b'\n'}
+[4.645881] (bboxes_ex_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.646038] (bboxes_ex_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[4.646199] (bboxes_ex_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.646368] (bboxes_ex_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.646508] (bboxes_ex_msgs) StderrLine: {'line': b'  CMakeLists.txt:11 (rosidl_generate_interfaces)\n'}
+[4.646650] (bboxes_ex_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.646807] (bboxes_ex_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[4.681494] (bboxes_ex_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[4.681734] (bboxes_ex_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.681899] (bboxes_ex_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.682039] (bboxes_ex_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.682222] (bboxes_ex_msgs) StderrLine: {'line': b'\n'}
+[4.682355] (bboxes_ex_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.682442] (bboxes_ex_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[4.682528] (bboxes_ex_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.682649] (bboxes_ex_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.682740] (bboxes_ex_msgs) StderrLine: {'line': b'  CMakeLists.txt:11 (rosidl_generate_interfaces)\n'}
+[4.682826] (bboxes_ex_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.682935] (bboxes_ex_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[4.692831] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[4.693271] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.693390] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.693521] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.716873] (-) TimerEvent: {}
+[4.729044] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.816992] (-) TimerEvent: {}
+[4.852193] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Configuring done (4.7s)\n'}
+[4.917159] (-) TimerEvent: {}
+[4.918443] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.924114] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/kiro04/robot_ws/ros2_ws/build/bboxes_ex_msgs\n'}
+[4.958668] (bboxes_ex_msgs) JobEnded: {'identifier': 'bboxes_ex_msgs', 'rc': 'SIGINT'}
+[5.017279] (-) TimerEvent: {}
+[5.117762] (-) TimerEvent: {}
+[5.185463] (my_first_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.187729] (my_first_package_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[5.187921] (my_first_package_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[5.188136] (my_first_package_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[5.188251] (my_first_package_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[5.188366] (my_first_package_msgs) StderrLine: {'line': b'\n'}
+[5.188479] (my_first_package_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.188591] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[5.188703] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[5.188814] (my_first_package_msgs) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[5.188965] (my_first_package_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.189074] (my_first_package_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[5.207850] (my_first_package_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[5.209547] (my_first_package_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.210194] (my_first_package_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[5.210352] (my_first_package_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[5.210475] (my_first_package_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[5.210592] (my_first_package_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[5.210704] (my_first_package_msgs) StderrLine: {'line': b'\n'}
+[5.210854] (my_first_package_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.210966] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[5.211079] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[5.211189] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[5.211319] (my_first_package_msgs) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[5.211454] (my_first_package_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.211564] (my_first_package_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[5.217875] (-) TimerEvent: {}
+[5.230100] (my_first_package_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[5.230354] (my_first_package_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[5.230482] (my_first_package_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[5.230596] (my_first_package_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[5.230710] (my_first_package_msgs) StderrLine: {'line': b'\n'}
+[5.230821] (my_first_package_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.230933] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[5.231043] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[5.231172] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[5.231283] (my_first_package_msgs) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[5.231393] (my_first_package_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.231504] (my_first_package_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[5.237048] (my_first_package_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[5.237380] (my_first_package_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.237507] (my_first_package_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.237664] (my_first_package_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.260930] (my_first_package_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.309732] (my_first_package_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.317997] (-) TimerEvent: {}
+[5.331388] (my_first_package_msgs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.332404] (my_first_package_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.333304] (my_first_package_msgs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.334652] (my_first_package_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.339866] (my_first_package_msgs) StdoutLine: {'line': b'-- Configuring done (4.0s)\n'}
+[5.390732] (my_first_package_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.394337] (my_first_package_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs\n'}
+[5.412179] (my_first_package_msgs) JobEnded: {'identifier': 'my_first_package_msgs', 'rc': 'SIGINT'}
+[5.418209] (-) TimerEvent: {}
+[5.423070] (yolox_ros_cpp) JobSkipped: {'identifier': 'yolox_ros_cpp'}
+[5.423275] (-) EventReactorShutdown: {}

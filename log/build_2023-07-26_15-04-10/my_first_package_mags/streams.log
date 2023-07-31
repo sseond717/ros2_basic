@@ -1,0 +1,212 @@
+[0.294s] Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package_mags -DCMAKE_INSTALL_PREFIX=/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags
+[0.306s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.508s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.514s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.912s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.482s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.484s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.513s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.513s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.513s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.513s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.536s] -- Found PythonExtra: .so  
+[1.570s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.586s] -- Added test 'lint_cmake' to check CMake code style
+[1.588s] -- Added test 'xmllint' to check XML markup files
+[1.593s] -- Configuring done
+[1.635s] -- Generating done
+[1.640s] -- Build files have been written to: /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags
+[1.649s] Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kiro04/Documents/robot_ws/ros2_ws/src/my_first_package_mags -DCMAKE_INSTALL_PREFIX=/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags
+[1.652s] Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags -- -j8 -l8
+[1.701s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.713s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.724s] [  6%] Built target ament_cmake_python_copy_my_first_package_mags
+[2.199s] [  6%] Built target my_first_package_mags__cpp
+[2.216s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.221s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.223s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.242s] [ 19%] [32mBuilding C object CMakeFiles/my_first_package_mags__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_mags/msg/detail/cmd_and_pose_vel__functions.c.o[0m
+[2.262s] running egg_info
+[2.263s] creating my_first_package_mags.egg-info
+[2.264s] writing my_first_package_mags.egg-info/PKG-INFO
+[2.265s] writing dependency_links to my_first_package_mags.egg-info/dependency_links.txt
+[2.265s] writing top-level names to my_first_package_mags.egg-info/top_level.txt
+[2.265s] writing manifest file 'my_first_package_mags.egg-info/SOURCES.txt'
+[2.270s] reading manifest file 'my_first_package_mags.egg-info/SOURCES.txt'
+[2.271s] writing manifest file 'my_first_package_mags.egg-info/SOURCES.txt'
+[2.323s] [ 19%] Built target ament_cmake_python_build_my_first_package_mags_egg
+[2.367s] [ 22%] [32m[1mLinking C shared library libmy_first_package_mags__rosidl_generator_c.so[0m
+[2.441s] [ 22%] Built target my_first_package_mags__rosidl_generator_c
+[2.471s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.471s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.472s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.690s] [ 35%] [32mBuilding CXX object CMakeFiles/my_first_package_mags__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_mags/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[2.749s] [ 38%] [32mBuilding CXX object CMakeFiles/my_first_package_mags__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_mags/msg/detail/dds_fastrtps/cmd_and_pose_vel__type_support.cpp.o[0m
+[2.841s] [ 41%] [32mBuilding CXX object CMakeFiles/my_first_package_mags__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_mags/msg/detail/cmd_and_pose_vel__type_support.cpp.o[0m
+[2.994s] [ 45%] [32mBuilding CXX object CMakeFiles/my_first_package_mags__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_mags/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[3.053s] [ 48%] [32m[1mLinking CXX shared library libmy_first_package_mags__rosidl_typesupport_c.so[0m
+[3.131s] [ 48%] Built target my_first_package_mags__rosidl_typesupport_c
+[3.182s] [ 51%] [32mBuilding C object CMakeFiles/my_first_package_mags__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_mags/msg/detail/cmd_and_pose_vel__type_support.c.o[0m
+[3.196s] [ 54%] [32mBuilding CXX object CMakeFiles/my_first_package_mags__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_mags/msg/detail/cmd_and_pose_vel__type_support_c.cpp.o[0m
+[3.249s] [ 58%] [32m[1mLinking C shared library libmy_first_package_mags__rosidl_typesupport_introspection_c.so[0m
+[3.309s] [ 58%] Built target my_first_package_mags__rosidl_typesupport_introspection_c
+[3.340s] [ 61%] [32m[1mLinking CXX shared library libmy_first_package_mags__rosidl_typesupport_cpp.so[0m
+[3.398s] [ 61%] Built target my_first_package_mags__rosidl_typesupport_cpp
+[3.544s] [ 64%] [32m[1mLinking CXX shared library libmy_first_package_mags__rosidl_typesupport_introspection_cpp.so[0m
+[3.553s] [ 67%] [32m[1mLinking CXX shared library libmy_first_package_mags__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.636s] [ 67%] Built target my_first_package_mags__rosidl_typesupport_introspection_cpp
+[3.693s] [ 67%] Built target my_first_package_mags__rosidl_typesupport_fastrtps_cpp
+[3.759s] [ 70%] [32m[1mLinking CXX shared library libmy_first_package_mags__rosidl_typesupport_fastrtps_c.so[0m
+[3.844s] [ 70%] Built target my_first_package_mags__rosidl_typesupport_fastrtps_c
+[3.859s] [ 70%] Built target my_first_package_mags
+[3.882s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.203s] [ 74%] Built target my_first_package_mags__py
+[4.227s] [ 77%] [32mBuilding C object CMakeFiles/my_first_package_mags__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_mags/msg/_cmd_and_pose_vel_s.c.o[0m
+[4.348s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_mags/libmy_first_package_mags__rosidl_generator_py.so[0m
+[4.386s] [ 80%] Built target my_first_package_mags__rosidl_generator_py
+[4.411s] [ 90%] [32mBuilding C object CMakeFiles/my_first_package_mags__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_first_package_mags/_my_first_package_mags_s.ep.rosidl_typesupport_c.c.o[0m
+[4.411s] [ 90%] [32mBuilding C object CMakeFiles/my_first_package_mags__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_first_package_mags/_my_first_package_mags_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.411s] [ 90%] [32mBuilding C object CMakeFiles/my_first_package_mags__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_first_package_mags/_my_first_package_mags_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.542s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.548s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.550s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.585s] [100%] Built target my_first_package_mags__rosidl_typesupport_c__pyext
+[4.590s] [100%] Built target my_first_package_mags__rosidl_typesupport_introspection_c__pyext
+[4.592s] [100%] Built target my_first_package_mags__rosidl_typesupport_fastrtps_c__pyext
+[4.603s] Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags -- -j8 -l8
+[4.673s] Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags
+[4.681s] -- Install configuration: ""
+[4.682s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/ament_index/resource_index/rosidl_interfaces/my_first_package_mags
+[4.682s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags
+[4.682s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg
+[4.683s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/cmd_and_pose_vel.h
+[4.683s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail
+[4.683s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__functions.c
+[4.683s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__functions.h
+[4.684s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__type_support.h
+[4.684s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__struct.h
+[4.684s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/rosidl_generator_c__visibility_control.h
+[4.684s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/environment/library_path.sh
+[4.685s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/environment/library_path.dsv
+[4.685s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_generator_c.so
+[4.685s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_generator_c.so" to ""
+[4.685s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags
+[4.686s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg
+[4.686s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.686s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail
+[4.686s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h
+[4.686s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_fastrtps_c.so
+[4.687s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_fastrtps_c.so" to ""
+[4.687s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags
+[4.688s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg
+[4.688s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail
+[4.688s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__type_support.c
+[4.688s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h
+[4.689s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.689s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_introspection_c.so
+[4.689s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_introspection_c.so" to ""
+[4.689s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_c.so
+[4.690s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_c.so" to ""
+[4.690s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags
+[4.690s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg
+[4.691s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail
+[4.691s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__traits.hpp
+[4.691s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__struct.hpp
+[4.691s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__builder.hpp
+[4.692s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/cmd_and_pose_vel.hpp
+[4.692s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags
+[4.692s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg
+[4.692s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail
+[4.693s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/dds_fastrtps
+[4.693s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[4.693s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.693s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_fastrtps_cpp.so
+[4.694s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.694s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags
+[4.694s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg
+[4.694s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail
+[4.695s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+[4.695s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/include/my_first_package_mags/my_first_package_mags/msg/detail/cmd_and_pose_vel__type_support.cpp
+[4.695s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_introspection_cpp.so
+[4.695s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_introspection_cpp.so" to ""
+[4.695s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_cpp.so
+[4.695s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_typesupport_cpp.so" to ""
+[4.695s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/environment/pythonpath.sh
+[4.695s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/environment/pythonpath.dsv
+[4.695s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags-0.0.0-py3.10.egg-info
+[4.696s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags-0.0.0-py3.10.egg-info/top_level.txt
+[4.696s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.696s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.696s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags-0.0.0-py3.10.egg-info/PKG-INFO
+[4.696s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags
+[4.696s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/__init__.py
+[4.696s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/msg
+[4.696s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/msg/__init__.py
+[4.697s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/msg/_cmd_and_pose_vel_s.c
+[4.697s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/msg/_cmd_and_pose_vel.py
+[4.697s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/libmy_first_package_mags__rosidl_generator_py.so
+[4.697s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/_my_first_package_mags_s.ep.rosidl_typesupport_c.c
+[4.697s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.697s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/_my_first_package_mags_s.ep.rosidl_typesupport_introspection_c.c
+[4.697s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/_my_first_package_mags_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.698s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.698s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.749s] Listing '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags'...
+[4.749s] Compiling '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/__init__.py'...
+[4.750s] Listing '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/msg'...
+[4.750s] Compiling '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/msg/__init__.py'...
+[4.750s] Compiling '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/msg/_cmd_and_pose_vel.py'...
+[4.758s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.759s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.759s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.760s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.760s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.761s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/local/lib/python3.10/dist-packages/my_first_package_mags/my_first_package_mags_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.761s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_generator_py.so
+[4.762s] -- Set runtime path of "/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/lib/libmy_first_package_mags__rosidl_generator_py.so" to ""
+[4.762s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/msg/CmdAndPoseVel.idl
+[4.763s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/msg/CmdAndPoseVel.msg
+[4.763s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/ament_index/resource_index/package_run_dependencies/my_first_package_mags
+[4.763s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/ament_index/resource_index/parent_prefix_path/my_first_package_mags
+[4.764s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/environment/ament_prefix_path.sh
+[4.764s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/environment/ament_prefix_path.dsv
+[4.764s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/environment/path.sh
+[4.764s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/environment/path.dsv
+[4.765s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/local_setup.bash
+[4.765s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/local_setup.sh
+[4.765s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/local_setup.zsh
+[4.766s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/local_setup.dsv
+[4.766s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/package.dsv
+[4.766s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/ament_index/resource_index/packages/my_first_package_mags
+[4.767s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/export_my_first_package_mags__rosidl_generator_cExport.cmake
+[4.767s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/export_my_first_package_mags__rosidl_generator_cExport-noconfig.cmake
+[4.767s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/export_my_first_package_mags__rosidl_typesupport_fastrtps_cExport.cmake
+[4.768s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/export_my_first_package_mags__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.768s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_mags__rosidl_typesupport_introspection_cExport.cmake
+[4.768s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_mags__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.769s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_mags__rosidl_typesupport_cExport.cmake
+[4.769s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_mags__rosidl_typesupport_cExport-noconfig.cmake
+[4.769s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/export_my_first_package_mags__rosidl_generator_cppExport.cmake
+[4.770s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/export_my_first_package_mags__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.770s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/export_my_first_package_mags__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.770s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_mags__rosidl_typesupport_introspection_cppExport.cmake
+[4.771s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_mags__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.771s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_mags__rosidl_typesupport_cppExport.cmake
+[4.771s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_mags__rosidl_typesupport_cppExport-noconfig.cmake
+[4.771s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/export_my_first_package_mags__rosidl_generator_pyExport.cmake
+[4.772s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/export_my_first_package_mags__rosidl_generator_pyExport-noconfig.cmake
+[4.772s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/rosidl_cmake-extras.cmake
+[4.772s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.772s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/ament_cmake_export_libraries-extras.cmake
+[4.773s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/ament_cmake_export_targets-extras.cmake
+[4.773s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.773s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.774s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.774s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_magsConfig.cmake
+[4.774s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/cmake/my_first_package_magsConfig-version.cmake
+[4.774s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_mags/share/my_first_package_mags/package.xml
+[4.782s] Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags

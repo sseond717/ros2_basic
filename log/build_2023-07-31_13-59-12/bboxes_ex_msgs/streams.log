@@ -1,0 +1,62 @@
+[0.063s] Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/bboxes_ex_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake /home/kiro04/robot_ws/ros2_ws/yolox_ros/bbox_ex_msgs -DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/bboxes_ex_msgs
+[1.286s] -- The C compiler identification is GNU 11.3.0
+[1.288s] -- The CXX compiler identification is GNU 11.3.0
+[1.288s] -- Detecting C compiler ABI info
+[1.288s] -- Detecting C compiler ABI info - done
+[1.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.288s] -- Detecting C compile features
+[1.289s] -- Detecting C compile features - done
+[1.289s] -- Detecting CXX compiler ABI info
+[1.289s] -- Detecting CXX compiler ABI info - done
+[1.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.289s] -- Detecting CXX compile features
+[1.290s] -- Detecting CXX compile features - done
+[1.290s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.448s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.680s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.706s] Traceback (most recent call last):
+[1.706s]   File "/home/kiro04/.local/bin/cmake", line 33, in <module>
+[1.708s]     sys.exit(load_entry_point('cmake', 'console_scripts', 'cmake')())
+[1.708s]   File "/home/kiro04/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in cmake
+[1.708s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[1.708s]   File "/home/kiro04/.local/lib/python3.10/site-packages/cmake/__init__.py", line 39, in _program
+[1.709s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[1.709s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[1.709s]     return p.wait(timeout=timeout)
+[1.712s]   File "/usr/lib/python3.10/subprocess.py", line 1207, in wait
+[1.712s]     return self._wait(timeout=timeout)
+[1.712s]   File "/usr/lib/python3.10/subprocess.py", line 1941, in _wait
+[1.712s]     (pid, sts) = self._try_wait(0)
+[1.712s]   File "/usr/lib/python3.10/subprocess.py", line 1899, in _try_wait
+[1.713s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[1.713s] KeyboardInterrupt
+[1.746s] Invoked command in '/home/kiro04/robot_ws/ros2_ws/build/bboxes_ex_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake /home/kiro04/robot_ws/ros2_ws/yolox_ros/bbox_ex_msgs -DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/bboxes_ex_msgs
+[1.750s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 112, in get_buildfile
+    if 'Ninja' in generator:
+TypeError: argument of type 'NoneType' is not iterable

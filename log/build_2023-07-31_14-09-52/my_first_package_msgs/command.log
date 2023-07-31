@@ -1,0 +1,1 @@
+Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kiro04/.local/bin/cmake /home/kiro04/robot_ws/ros2_ws/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/my_first_package_msgs

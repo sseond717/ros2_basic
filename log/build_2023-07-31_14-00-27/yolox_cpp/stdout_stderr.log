@@ -1,0 +1,7 @@
+-- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Configuring incomplete, errors occurred!
+[31mCMake Error at CMakeLists.txt:29 (message):
+  YOLOX_USE_OPENVINO, YOLOX_USE_TENSORRT, YOLOX_USE_ONNXRUNTIME,
+  YOLOX_USE_TFLITE must be ON at least one
+
+[0m

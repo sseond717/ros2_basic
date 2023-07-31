@@ -1,0 +1,7 @@
+[console_scripts]
+dist_publisher = arduino_tutorial.dist_publisher:main
+dist_subscriber = arduino_tutorial.dist_subscriber:main
+led_subscriber = arduino_tutorial.led_subscriber:main
+servo_publisher = arduino_tutorial.servo_publisher:main
+servo_subscriber = arduino_tutorial.servo_subscriber:main
+

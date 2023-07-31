@@ -1,0 +1,246 @@
+[0.634s] Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_msgs -- -j8 -l8
+[0.663s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.855s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.857s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.860s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.413s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.041s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.065s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.065s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.087s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.100s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.101s] -- Added test 'lint_cmake' to check CMake code style
+[2.101s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.102s] -- Added test 'xmllint' to check XML markup files
+[2.105s] -- Configuring done
+[2.148s] -- Generating done
+[2.151s] -- Build files have been written to: /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_msgs
+[2.177s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_generator_c[0m
+[2.186s] [  2%] Built target my_first_package_msgs__cpp
+[2.190s] [ 12%] Built target my_first_package_msgs__rosidl_generator_c
+[2.202s] [ 12%] Built target ament_cmake_python_copy_my_first_package_msgs
+[2.204s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.209s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.212s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.212s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_cpp[0m
+[2.214s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_introspection_c[0m
+[2.221s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_c[0m
+[2.236s] [ 23%] Built target my_first_package_msgs__rosidl_typesupport_introspection_cpp
+[2.239s] [ 55%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp
+[2.239s] [ 55%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c
+[2.240s] [ 55%] Built target my_first_package_msgs__rosidl_typesupport_cpp
+[2.241s] [ 65%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c
+[2.242s] [ 76%] Built target my_first_package_msgs__rosidl_typesupport_c
+[2.264s] [ 76%] Built target my_first_package_msgs
+[2.286s] [ 78%] Built target my_first_package_msgs__py
+[2.299s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_generator_py[0m
+[2.316s] [ 87%] Built target my_first_package_msgs__rosidl_generator_py
+[2.328s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.331s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.333s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_c__pyext[0m
+[2.344s] [ 91%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.350s] [ 95%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c__pyext
+[2.352s] [100%] Built target my_first_package_msgs__rosidl_typesupport_c__pyext
+[2.596s] running egg_info
+[2.597s] writing my_first_package_msgs.egg-info/PKG-INFO
+[2.597s] writing dependency_links to my_first_package_msgs.egg-info/dependency_links.txt
+[2.597s] writing top-level names to my_first_package_msgs.egg-info/top_level.txt
+[2.600s] reading manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[2.601s] writing manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[2.630s] [100%] Built target ament_cmake_python_build_my_first_package_msgs_egg
+[2.641s] Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_msgs -- -j8 -l8
+[2.733s] Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_msgs
+[2.741s] -- Install configuration: ""
+[2.741s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/ament_index/resource_index/rosidl_interfaces/my_first_package_msgs
+[2.741s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.741s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.742s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.h
+[2.742s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.742s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c
+[2.742s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h
+[2.742s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.h
+[2.742s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h
+[2.742s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.742s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.743s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.h
+[2.743s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.743s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.c
+[2.743s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.h
+[2.743s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.h
+[2.743s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.h
+[2.744s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[2.744s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[2.744s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.h
+[2.744s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__functions.h
+[2.744s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__functions.c
+[2.744s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.h
+[2.744s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.h
+[2.744s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.sh
+[2.745s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.dsv
+[2.745s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so
+[2.745s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.745s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.745s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.746s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.746s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h
+[2.746s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.746s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.746s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h
+[2.746s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[2.746s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[2.747s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_c.h
+[2.747s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so
+[2.747s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.747s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.747s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.747s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c
+[2.747s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h
+[2.747s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.748s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.748s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.748s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h
+[2.748s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.c
+[2.748s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[2.748s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[2.748s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.c
+[2.748s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_c.h
+[2.748s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so
+[2.749s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so
+[2.749s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.749s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.749s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.749s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+[2.749s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+[2.749s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+[2.749s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+[2.750s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.750s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.750s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp
+[2.750s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp
+[2.750s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp
+[2.750s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.hpp
+[2.750s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[2.750s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.hpp
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.hpp
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__traits.hpp
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__builder.hpp
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/dds_fastrtps
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.751s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/dds_fastrtps
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dds_fastrtps
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+[2.752s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.cpp
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_cpp.hpp
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so
+[2.753s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.sh
+[2.754s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.dsv
+[2.754s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info
+[2.754s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.754s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.754s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.754s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.754s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs
+[2.754s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/__init__.py
+[2.754s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg
+[2.754s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/__init__.py
+[2.754s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c
+[2.754s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/libmy_first_package_msgs__rosidl_generator_py.so
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/__init__.py
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn.py
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn_s.c
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action
+[2.755s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/__init__.py
+[2.756s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/_dist_turtle.py
+[2.756s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/_dist_turtle_s.c
+[2.756s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.788s] Listing '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs'...
+[2.788s] Compiling '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/__init__.py'...
+[2.788s] Listing '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action'...
+[2.788s] Listing '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg'...
+[2.788s] Listing '/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv'...
+[2.794s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.794s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.795s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.795s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so
+[2.796s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.idl
+[2.796s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.idl
+[2.797s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.idl
+[2.797s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.msg
+[2.797s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.srv
+[2.797s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn_Request.msg
+[2.797s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn_Response.msg
+[2.798s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.action
+[2.798s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_package_msgs
+[2.798s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_package_msgs
+[2.798s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.sh
+[2.798s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.dsv
+[2.799s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.sh
+[2.799s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.dsv
+[2.799s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.bash
+[2.799s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.sh
+[2.799s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.zsh
+[2.800s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.dsv
+[2.800s] -- Installing: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv
+[2.800s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/ament_index/resource_index/packages/my_first_package_msgs
+[2.800s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport.cmake
+[2.800s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.801s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.801s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.801s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.801s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.802s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport.cmake
+[2.802s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.802s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cppExport.cmake
+[2.802s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.802s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.803s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.803s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.803s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport.cmake
+[2.803s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.803s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport.cmake
+[2.803s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.803s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake-extras.cmake
+[2.804s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.804s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.804s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.804s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.804s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.804s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.804s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig.cmake
+[2.805s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig-version.cmake
+[2.805s] -- Up-to-date: /home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package_msgs/share/my_first_package_msgs/package.xml
+[2.809s] Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/Documents/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/Documents/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_msgs

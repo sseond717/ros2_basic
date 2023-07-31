@@ -1,0 +1,23 @@
+[0.058s] Invoking command in '/home/kiro04/robot_ws/ros2_ws/build/yolox_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake /home/kiro04/robot_ws/ros2_ws/src/yolox_ros/yolox_ros_cpp/yolox_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/yolox_cpp
+[1.229s] -- The C compiler identification is GNU 11.3.0
+[1.229s] -- The CXX compiler identification is GNU 11.3.0
+[1.229s] -- Detecting C compiler ABI info
+[1.229s] -- Detecting C compiler ABI info - done
+[1.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.230s] -- Detecting C compile features
+[1.230s] -- Detecting C compile features - done
+[1.230s] -- Detecting CXX compiler ABI info
+[1.230s] -- Detecting CXX compiler ABI info - done
+[1.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.233s] -- Detecting CXX compile features
+[1.234s] -- Detecting CXX compile features - done
+[1.234s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.340s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.492s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.713s] [31mCMake Error at CMakeLists.txt:29 (message):
+[1.713s]   YOLOX_USE_OPENVINO, YOLOX_USE_TENSORRT, YOLOX_USE_ONNXRUNTIME,
+[1.713s]   YOLOX_USE_TFLITE must be ON at least one
+[1.714s] 
+[1.714s] [0m
+[1.714s] -- Configuring incomplete, errors occurred!
+[1.750s] Invoked command in '/home/kiro04/robot_ws/ros2_ws/build/yolox_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kiro04/robot_ws/ros2_ws/install/my_first_package:/home/kiro04/robot_ws/ros2_ws/install/arduino_tutorial:/opt/ros/humble /home/kiro04/.local/bin/cmake /home/kiro04/robot_ws/ros2_ws/src/yolox_ros/yolox_ros_cpp/yolox_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kiro04/robot_ws/ros2_ws/install/yolox_cpp

@@ -1,0 +1,2 @@
+Invoking command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags -- -j8 -l8
+Invoked command in '/home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kiro04/Documents/robot_ws/ros2_ws/build/my_first_package_mags -- -j8 -l8
